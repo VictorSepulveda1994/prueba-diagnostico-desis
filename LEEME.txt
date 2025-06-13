@@ -1,6 +1,6 @@
 INSTRUCCIONES DE INSTALACIÓN DEL SISTEMA DE REGISTRO
 
-1.  **Versiones Requeridas:**
+1.  **Versiones Utilizadas:**
     * Entorno: XAMPP
     * Apache: 2.4.58
     * PHP: 8.2.12

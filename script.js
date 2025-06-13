@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Función para cargar opciones en un select
   const loadSelectOptions = (selectId, data) => {
     const select = document.getElementById(selectId);
-    select.innerHTML = '<option value="">-- Seleccione una opción --</option>'; // Opción en blanco 
+    select.innerHTML = '<option value=""> </option>'; // Opción en blanco 
     data.forEach(item => {
       select.innerHTML += `<option value="${item.id}">${item.nombre}</option>`;
     });
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (idBodega) {
       fetch(`get_data.php?list=sucursales&bodega_id=${idBodega}`).then(res => res.json()).then(data => loadSelectOptions('sucursal', data));
     } else {
-      sucursalSelect.innerHTML = '<option value="">-- Seleccione una Bodega primero --</option>'; // Opción en blanco 
+      sucursalSelect.innerHTML = '<option value=""> </option>'; // Opción en blanco 
     }
   });
 

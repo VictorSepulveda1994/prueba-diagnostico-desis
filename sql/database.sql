@@ -55,6 +55,6 @@ CREATE TABLE `producto_materiales` (
 
 -- Insertar datos de ejemplo
 INSERT INTO `bodegas` (`nombre_bodega`) VALUES ('Bodega 1'), ('Bodega 2');
-INSERT INTO `sucursales` (`id_bodega`, `nombre_sucursal`) VALUES (1, 'Sucursal 1A'), (1, 'Sucursal 1B'), (2, 'Sucursal 2A');
+INSERT INTO `sucursales` (`id_bodega`, `nombre_sucursal`) VALUES (1, 'Sucursal 1A'), (1, 'Sucursal 1B'), (2, 'Sucursal 2A'),(2, 'Sucursal 2B'),(2, 'Sucursal 2C');
 INSERT INTO `monedas` (`nombre_moneda`) VALUES ('DÓLAR'), ('PESO'), ('EURO');
 INSERT INTO `materiales` (`nombre_material`) VALUES ('Plástico'), ('Metal'), ('Madera'), ('Vidrio'), ('Textil');

@@ -31,7 +31,7 @@
                 <div class="form-group">
                     <label for="sucursal">Sucursal</label>
                     <select id="sucursal" name="sucursal">
-                        <option value="">-- Seleccione una Bodega primero --</option>
+                        <option value=""> </option>
                     </select>
                 </div>
             </div>

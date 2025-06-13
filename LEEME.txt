@@ -1,0 +1,16 @@
+INSTRUCCIONES DE INSTALACIÓN DEL SISTEMA DE REGISTRO
+
+1.  **Versiones Requeridas:**
+    * Entorno: XAMPP
+    * Apache: 2.4.58
+    * PHP: 8.2.12
+    * Base de Datos: MySQL/MariaDB, incluida en XAMPP (10.4.32) 
+
+2.  **Pasos de Instalación:**
+    * Clonar o descargar el repositorio.
+    * Copiar la carpeta del proyecto a la carpeta `htdocs` de XAMPP (normalmente `C:\xampp\htdocs`).
+    * Iniciar los módulos de Apache y MySQL desde el panel de control de XAMPP.
+    * Abrir phpMyAdmin (`http://localhost/phpmyadmin`) y crear una nueva base de datos llamada `desis_db`.
+    * Seleccionar la base de datos `desis_db`, ir a la pestaña "SQL" y ejecutar el contenido del archivo ubicado en `/sql/database.sql`.
+    * Verificar que las credenciales en `conexion.php` coincidan con las de XAMPP (por defecto son usuario 'root' y sin contraseña).
+    * Abrir el proyecto en el navegador: `http://localhost/sistema_registro/`.
